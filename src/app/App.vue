@@ -1,11 +1,14 @@
 <template>
-  <div id="app" class="app">
+  <div
+    id="app"
+    class="app"
+  >
     <AccountManagementPage />
   </div>
 </template>
 
 <script setup lang="ts">
-import AccountManagementPage from '~pages/account-management/AccountManagementPage.vue'
+import AccountManagementPage from '@/pages/account-management/AccountManagementPage.vue'
 </script>
 
 <style scoped>
